@@ -5,7 +5,7 @@ public class bicyclesVehicle extends vehicle{
 
    }
      public int calculateRentAmount(int period){
-    return super.calculateRentAmount(period)*3;
+    return period*3;
 
    }
 
